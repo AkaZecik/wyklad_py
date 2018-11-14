@@ -1,13 +1,12 @@
-from modul import var
-from modul import method
-from modul import Class as Klass
+from modul import *
 
-print(var)
-method()
-Klass()
+for el in dir():
+    print(el)
+
+print()
 
 try:
-    modul.method()
+    modul.method1()
 except NameError:
     print("Cannot do that!")
 

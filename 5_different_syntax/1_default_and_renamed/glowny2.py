@@ -1,23 +1,24 @@
-import modul as md
+import modul as md1
+import modul as md2
 
-print(md.var1)
-print(md._var2)
-print(md.__var3)
-print(md.___var4)
-
-print()
-
-print(md.method1)
-print(md._method2)
-print(md.__method3)
-print(md.___method4)
+print(md1.var1)
+print(md2._var2)
+print(md1.__var3)
+print(md2.___var4)
 
 print()
 
-print(md.Class1)
-print(md._Class2)
-print(md.__Class3)
-print(md.___Class4)
+print(md1.method1)
+print(md2._method2)
+print(md1.__method3)
+print(md2.___method4)
+
+print()
+
+print(md1.Class1)
+print(md2._Class2)
+print(md1.__Class3)
+print(md2.___Class4)
 
 print()
 
