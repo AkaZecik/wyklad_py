@@ -1,0 +1,1 @@
+Moduł to plik o rozszerzeniu '.py'. Nazwa modułu to nazwa pliku, w którym znajduje się jego kod. Wewnątrz modułu można odwołać się do jego nazwy za pomocą zmiennej globalnej __name__.

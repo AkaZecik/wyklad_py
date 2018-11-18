@@ -1,0 +1,4 @@
+Pierwszym sposobem na zaimportowanie modułu jest użycie konstrukcji 'import MODUŁ'. Powoduje to dodanie do słownika aktualnego modułu zmiennej o nazwie MODUŁ, która jest słownikiem wszystkich obiektów zdefiniowanych wewnątrz modułu MODUŁ.
+
+Możliwe jest również nadanie aliasu na moduł za pomocą konstrukcji 'import MODUŁ as ALIAS'. Efekt jest taki, że teraz możemy się odwoływać do słownika symboli tego modułu za pomocą zmiennej ALIAS. Nie jest możliwe jednak używanie w tej sytuacji zmiennej MODUŁ - nie została ona zdefiniowana. 
+Domyślna konstrukcja importuje wszystkie zmienne w module: publiczne i 'prywatne'.

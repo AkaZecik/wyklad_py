@@ -1,0 +1,9 @@
+Aby zaimportować moduł, interpreter musi go najpierw zlokalizować. 
+
+Domyślna ścieżka poszukiwań wygląda następująco:
+1) Obecny katalog
+2) Katalogi ze zmiennej PYTHONPATH
+3) Katalogi z bibliotekami pythona
+4) Katalogi zależne od architektury
+
+Ścieżkę, po której będzie przechodzić intepreter można podejrzeć przez zmienną sys.path. Zmienną tą można modyfikować w trakcie działania programu.

@@ -1,0 +1,3 @@
+Python umożliwia importowanie (prawie) wszystkich symboli z modułu do naszego głównego słownika symboli. Składnia wygląda tak: 'from MODUŁ import *'.
+
+Twórcy pythona uznali jednak, że konstrukcja ta jest zbyt niebezpieczna aby mogła importować wszystkie symbole z modułu (ponieważ mogłaby nadpisać istniejące już w słowniku symbole; o tym w następnym folderze), dlatego konstrukcja ta importuje jedynie symbole publiczne.

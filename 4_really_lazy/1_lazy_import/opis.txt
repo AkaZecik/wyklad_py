@@ -1,0 +1,7 @@
+Każdy moduł wewnątrz jednej instancji interpretera pythona jest ładowany tylko raz.
+
+Działa to w ten sposób, że interpreter trzyma w pamięci listę modułów, które dotychczas zostały załadowane oraz ich listę symboli.
+
+Następnie w każdym miejscu, w którym wystąpi kolejny import tego modułu, intepreter podstawia od razu listę symboli tego modułu ze swojej pamięci.
+
+Oznacza to, że jeżeli zmodyfikujemy moduł po jego zaimportowaniu, to nie jesteśmy w stanie zaimportować jego nowej wersji bez restartowania interpretera (lub hackowania).

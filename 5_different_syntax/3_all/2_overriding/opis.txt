@@ -1,0 +1,1 @@
+Zaimportowanie dwóch modułów z tym samym symbolem powoduje, że ten drugi nadpisze ten pierwszy.

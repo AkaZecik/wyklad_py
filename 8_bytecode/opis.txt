@@ -1,0 +1,10 @@
+Aby przyspieszyć ładowanie modułów, python tworzy sobie pliki cache o rozszerzeniu '.pyc', które przechowuje w podfolderze __pycache__. Każdy moduł zostaje zapisany w pliku o nazwie składającej się z dwóch części i rozszerzenia:
+NAZWA_MODUŁU.NAZWA_I_WERSJA_INTERPRETERA.pyc
+
+Kolejność akcji wykonywanych przez interpreter jest następująca:
+- Python widząc w kodzie instrukcję importu przejdzie się po ścieżkach ze zmiennej sys.path.
+- Gdy znajdzie gdzieś plik zawierający kod źródłowy modułu, to sprawdzi czy nie znajduje się obok niego jego wersja cache.
+    - Jeżeli tak, to sprawdzi datę modyfikacji kodu źródłowego i porówna ją z datą utworzenia pliku '.pyc'.
+	- Jeżęli wersji cache nie ma lub jest starsza niż kod źródłowy, to wygeneruje wersję cache na nowo i ją użyje.
+
+Cachowanie nie odbywa się dla skryptów (które semantycznie nie są modułami).

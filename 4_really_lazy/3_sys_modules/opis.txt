@@ -1,0 +1,3 @@
+Zmienna sys.modules zawiera listę modułów, które zostały dotychczas załadowane, w postaci stringów z nazwami tych modułów.
+
+W zmiennej tej przechowywane są oryginalne nazwy modułów. Aliasy nie są przechowywane.

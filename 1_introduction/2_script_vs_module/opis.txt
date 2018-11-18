@@ -1,0 +1,11 @@
+Python rozróżnia skrypty i moduły. Oba to pliki o rozszerzeniu '.py' i każdy plik o takim rozszerzeniu można używać jak skrypt albo moduł. 
+
+Różnicą jest jak są uruchamiane:
+- skrypt jest uruchamiany bezpośrednio przez interpreter pythona (python3 glowny.py)
+- moduł jest importowany z poziomu skryptu lub innego modułu (import glowny.py, wywołany np. bezpośrednio w interpreterze: python3 <<< "import glowny")
+
+A efektywną różnicą jest to co zawiera w sobie zmienna globalna __name__:
+- w przypadku modułu jest to jego nazwa (np. 'glowny')
+- w przypadku skryptu jest to '__main__'
+
+Pozwala to na odróżnienie tych dwóch sytuacji za pomocą instrukcji warunkowej sprawdzającej zawartość zmiennej __name__

@@ -1,0 +1,1 @@
+Importowanie za pomocą trzeciej konstrukcji działa analogicznie do drugiej. Różnicą jest ilość zaimportowanych symboli oraz to czy importowane symbole mogą być prywatne.

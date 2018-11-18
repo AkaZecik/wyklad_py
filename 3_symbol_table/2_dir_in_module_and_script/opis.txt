@@ -1,0 +1,4 @@
+Zawartość modułu można podejrzeć za pomocą metody dir().
+Wywołanie metody dir() bez argumentów zwróci listę symboli dostępnych w aktualnym module, a wywołanie z argumentem będącym symbolem modułu zwróci listę symboli z tego modułu.
+
+Metoda dir nie wypisuje symboli z modułu builtin.py. Aby je podejrzeć należy ten moduł zaimportować ręcznie i sprawdzić jego zawartość za pomocą metody dir().

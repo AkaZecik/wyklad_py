@@ -1,0 +1,3 @@
+Jak już było wspomniane, każdy moduł jest importowany do pamięci interpretera tylko raz, niezależnie od tego jakiej składni się użyje do jego zaimportowania (nawet jeżeli wyciągamy tylko pojedynczy symbol z modułu i umieszczamy go w naszym globalnym słowniku symboli).
+
+Aliasowanie również nie wpływa na ilość faktycznych importów.

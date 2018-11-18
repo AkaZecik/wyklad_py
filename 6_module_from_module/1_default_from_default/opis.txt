@@ -1,0 +1,1 @@
+Domyślna konstrukcja dodaje do słownika nowy symbol wskazujący na listę symboli z innego modułu.

@@ -1,0 +1,1 @@
+Z perspektywy interpretera skrypt nie jest modułem. Oznacza to, że jeżeli uruchomimy plik '.py' jako skrypt to nie zostanie on zapisany w pamięci interpretera jako moduł. Zatem próba jego zaimportowania ze skryptu lub innego modułu powiedzie się i plik ten zostanie wykonany po raz drugi.

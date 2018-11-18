@@ -1,0 +1,11 @@
+Pakiet w pythonie to nic innego jak zbiór modułów (i innych pakietów) przechowywanych w jednym folderze.
+
+Nie każdy folder można uznać za pakiet, nawet jak jest złożony z samych plików o rozszerzeniu '.py'. Warunkiem koniecznym i wystarczającym jest to, żeby w takim folderze znajdował się plik o nazwie __init__.py (nawet pusty).
+
+Plik __init__.py jest wykorzystywany do inicjalizacji pakietów tak samo jak każdy moduł mógł zawierać własny kod inicjalizacyjny.
+
+Przy importowaniu dowolnego modułu z pakietu uruchamiany jest (w sposób leniwy) plik inicjalizacyjny pakietu.
+
+Składnia importowania modułów i pakietów z modułów jest analogiczna do tej jak w przypadku zwykłych modułów, z jedną różnicą.
+
+Składnia 'from PAKIET import *' w praktyce nie importuje wszystkich modułów, a jedynie te, których nazwy znajdują się w zmiennej globalnej __all__ pakietu PAKIET. Oznacza to, że jeżeli takiej zmiennej nie zdefiniujemy lub nie umieścimy w niej nazwy jakiegoś modułu to nie będziemy mogli go zaimportować za pomocą tej składni.

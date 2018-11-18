@@ -1,0 +1,7 @@
+Drugi sposób na importowanie modułu to importowanie konkretnych elementów tego modułu bezpośrednio do głównego słownika obecnego modułu/skryptu.
+
+Składnia do tego wygląda następująco: 'from MODUŁ import SYMBOL'.
+
+Podobnie jak w przypadku domyślnej konstrukcji z aliasem, użycie tej składni nie pozwala na użycie nazwy MODUŁ.
+
+Nazwę importowanego symbolu można zmienić w następujący sposób: `from MODUŁ import SYMBOL as ALIAS'.

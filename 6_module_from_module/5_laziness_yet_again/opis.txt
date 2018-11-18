@@ -1,0 +1,1 @@
+Inny przykład leniwego ładowania. Niezależnie od użytej konstrukcji, każdy moduł jest ładowany dokładnie jeden raz w trakcie istnienia jednej instancji interpretera.

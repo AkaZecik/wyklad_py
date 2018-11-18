@@ -1,0 +1,1 @@
+Każdy moduł może oprócz definicji zmiennych, metod i klas zawierać instrukcje, które taki moduł zainicjalizują, np. wywołując jakąś specjalną metode (albo witając użytkownika jak w przykładzie).

@@ -1,0 +1,1 @@
+Jest tu pokazany przykład 'leniwego' (jednorazowego) ładowania modułów przez intepreter pythona, nawet jeżeli jest to z wnętrza innych modułów.

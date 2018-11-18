@@ -1,0 +1,1 @@
+Po zaimportowaniu symbolu za pomocą drugiej składni możemy go traktować jako symbol z tego modułu (zapominając, że był importowany).

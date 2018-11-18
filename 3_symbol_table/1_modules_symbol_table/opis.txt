@@ -1,0 +1,1 @@
+Każdy moduł po zaimportowaniu to efektywnie słownik zawierający zmienne, metody i klasy zdefiniowane w module. Do tych objektów można się odwoływać za pomocą nazwy modułu.

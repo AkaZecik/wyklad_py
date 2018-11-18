@@ -1,0 +1,3 @@
+Interpreter pythona umożliwia zmianę ścieżki poszukiwań modułów jeszcze zanim go uruchomimy.
+
+Można tego dokonać poprzez zmianę zmiennej środowiskowej PYTHONPATH. Składnia tej zmiennej jest dokładnie taka sama jak zwykłej zmiennej środowiskowej PATH.
